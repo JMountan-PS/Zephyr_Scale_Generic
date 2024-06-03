@@ -10,8 +10,6 @@ Suite Setup                 Setup Work                  #Authorize with this cal
 Test Setup                  Start Test Case Timer
 Test Teardown               Post New Result                ${TEST STATUS}    ${TEST MESSAGE}    #Update Cycle after test case run
 
-#This will send an email to all stakeholders in NotifyList.py after the suite has finished
-Suite Teardown              Notify Email Recipients
 
 *** Test Cases ***
 Test Case 001
