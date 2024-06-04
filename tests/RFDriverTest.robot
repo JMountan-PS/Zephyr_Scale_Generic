@@ -14,7 +14,7 @@ Test Teardown               Post New Result                ${TEST STATUS}    ${T
 *** Test Cases ***
 Test Case 001
     [Documentation]         This test case will Pass
-    ${num}=                 Set Variable                1
+    ${num}=                 Set Variable                2
     Log Variables           level=WARN
 
 Test Case 002
